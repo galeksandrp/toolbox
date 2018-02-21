@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'docker-toolbox'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = '$toolsDir\DockerToolbox.exe'
+$url        = "$toolsDir\DockerToolbox.exe"
 
 $packageArgs = @{
   packageName   = $packageName
